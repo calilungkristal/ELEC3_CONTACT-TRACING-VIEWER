@@ -9,4 +9,8 @@ Public Class Form1
             richTextBoxResult.Text = File.ReadAllText(ofd.FileName)
         End If
     End Sub
+
+    Private Sub btnClearList_Click(sender As Object, e As EventArgs) Handles btnClearList.Click
+        richTextBoxResult.Clear()
+    End Sub
 End Class
