@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A3_CONTACT_TRACING_VIEWER</RootNamespace>
+    <StartupObject>A3_CONTACT_TRACING_VIEWER.Form1</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.AssemblyInfo.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\A3_CONTACT-TRACING-VIEWER.vbproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.designer.deps.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\A3_CONTACT-TRACING-VIEWER.vbproj.nuget.g.props" />
+    <None Include="obj\A3_CONTACT-TRACING-VIEWER.vbproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\netcoreapp3.1\A3_CONTACT-TRACING-VIEWER.vbproj.AssemblyReference.cache" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>

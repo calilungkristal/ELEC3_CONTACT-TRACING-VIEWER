@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LJ7EaWN0FERvPtz/+HsXCzJS9rldSROb9aP8YJO0sOGtokHTSJkQRkHQ+hGcQWJFUtRCAlYweE2wT8kxekKz1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\5th Year\\2ND SEM\\ELECTIVE 3\\A3_CONTACT-TRACING-VIEWER\\A3_CONTACT-TRACING-VIEWER\\A3_CONTACT-TRACING-VIEWER.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
